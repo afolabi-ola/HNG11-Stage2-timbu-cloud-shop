@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import TopBanner from './components/TopBanner/TopBanner';
 import Products from './components/Products/Products';
-
+import Footer from './components/Footer/Footer';
 const App = () => {
   const topSellingProducts = [
     {
@@ -140,13 +140,16 @@ const App = () => {
 
   return (
     <div className='app'>
-      <Header />
-      <TopBanner />
-      <Products
-        products={topSellingProducts}
-        productHeading='Top Selling Products'
-      />
-      <Products products={discountSales} productHeading='Discount Sales' />
+      <div className='top-section'>
+        <Header />
+        <TopBanner />
+        <Products
+          products={topSellingProducts}
+          productHeading='Top Selling Products'
+        />
+        <Products products={discountSales} productHeading='Discount Sales' />
+      </div>
+      <Footer />
     </div>
   );
 };
