@@ -1,0 +1,15 @@
+.submit-button{
+    width: 6em;
+    border-radius: 3px;
+margin: 0 0.5em;
+}
+
+.submit-button input[type="submit"]{
+    background-color:#000000;
+    color: gray;
+    width: 100%;
+    padding: 0.6em ;
+    border-radius: 2px;
+    border: none;
+    outline: 0;
+}

@@ -1,0 +1,12 @@
+.logo{
+    background-color: black;
+    width: 6.5rem;
+    color: #f0f0f0;
+display: flex;
+justify-content: space-between;
+padding:0.3em 0.5rem;
+}
+
+.logo-icon{
+    color: #942300;
+}

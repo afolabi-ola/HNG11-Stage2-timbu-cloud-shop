@@ -1,0 +1,24 @@
+.bottom-nav{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    padding: 0.7em;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+.bottom-nav a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.all-categories{
+    display: flex;
+}
+.all-categories h3{
+  margin: 0 0.7em 0 0;
+}
+.all-categories-icon{
+    color: #ffffff;
+ margin: 0 1em 0 1em;
+ padding-top: 0.1em;
+}
