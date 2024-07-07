@@ -1,7 +1,8 @@
 .app{
     border: 1px solid red;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: block;
     padding: 0 2em;
+   
 }

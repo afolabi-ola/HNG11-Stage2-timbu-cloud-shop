@@ -1,0 +1,38 @@
+.product-card{
+    border: 1px solid #808080;
+    width: 12em;
+        border-radius: 7px;
+}
+.card-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        border-radius: 7px;
+        position: relative;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 7px;
+}
+.card-text{
+    padding: 0.7em 0.4em;
+
+}
+.card-text h2{
+    font-size: .7em;
+    margin-bottom: 0.5em;
+}
+.card-text p{
+      font-size: .7em;
+     margin-bottom: 0.5em;
+}
+.discount-percent{
+    background-color: #ff0000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: .7em;
+    padding: 0.8em;
+    border-top-left-radius: 90%;
+    color: #ffffff;
+}

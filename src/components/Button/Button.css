@@ -1,18 +1,21 @@
 .button{
-    width: 5em;
       border: none;
        border-radius: 5px;
        max-height: 1.5em;
 }
 
 .button button{
-    width: 100%;
+ width: 5em;
     height: 100%;
-    padding: 0.3em;
+    padding: 0.5em 0;
     display: flex;
     justify-content: space-between;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 3px;
+     font-size: .7em;
+     text-align: center;
+     display: flex;
+     justify-content: center;
 }
