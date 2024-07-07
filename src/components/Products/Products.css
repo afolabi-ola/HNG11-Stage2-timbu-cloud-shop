@@ -1,15 +1,21 @@
-.products-overall{
-    margin-top: 3em;
-    padding: 1em;
-}
-.products-overall h1{
- margin-bottom: .5em;
- color: #ff0000;
+.products-overall {
+  margin-top: 3em;
+  padding: 1em 0;
 }
 
-.products-container{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr ;
-grid-row-gap: 2em;
+.products-overall h1 {
+  margin-bottom: 0.5em;
+  color: #ff0000;
 }
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-column-gap: 7em;
+  grid-row-gap: 2em;
+  width: 100%;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
 

@@ -1,6 +1,6 @@
 .product-card{
     border: 1px solid #808080;
-    width: 12em;
+    width: 100%;
         border-radius: 7px;
 }
 .card-image{
