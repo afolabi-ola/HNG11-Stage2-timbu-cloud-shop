@@ -18,4 +18,8 @@
   box-sizing: border-box;
 }
 
-
+@media screen and (max-width:528px) {
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+}

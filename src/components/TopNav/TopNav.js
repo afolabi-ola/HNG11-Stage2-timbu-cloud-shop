@@ -10,12 +10,14 @@ const TopNav = () => {
     <div className='top-nav'>
       <Logo />
       <Search />
-      <Button bgColor='#ff0000' color='#ffffff'>
-        <span>My Cart</span>
-        <span>
-          <FontAwesomeIcon icon={faShoppingCart} />
-        </span>
-      </Button>
+      <div className='topnavbtn'>
+        <Button bgColor='#ff0000' color='#ffffff'>
+          <span>My Cart</span>
+          <span>
+            <FontAwesomeIcon icon={faShoppingCart} />
+          </span>
+        </Button>
+      </div>
     </div>
   );
 };

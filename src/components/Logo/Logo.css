@@ -10,3 +10,39 @@ padding:0.3em 0.5rem;
 .logo-icon{
     color: #942300;
 }
+
+.icon1{
+   display: none;
+}
+.icon2{
+display: none;
+}
+.icon3{
+ display: none;
+}
+
+
+@media screen and (max-width:528px) {
+  .logo{
+margin-bottom: 1em;
+  }
+  .topnavbtn{
+    display: none;
+  }
+  .logo-overall{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icon1{
+    display: flex;
+    justify-content: start;
+}
+.icon2{
+    display: flex;
+    justify-content: end;
+}
+.icon3{
+    display: flex;
+    justify-content: end;
+}
+}

@@ -61,3 +61,40 @@ text-shadow: 2px 2px white;
 .social-media-icons a:hover {
 transform: scale(1.2);
 }
+
+@media screen and (max-width:528px) {
+ .footer{
+ 
+    grid-template-columns: 1fr ;
+
+     
+}
+
+.footer-list{
+flex-direction: column;
+  padding: 0;
+}
+
+.list-cont{
+  margin-bottom: 2em;
+       padding: 0;
+       font-size:1.3em;
+}
+
+.footer-social-media{
+  flex-direction: column;
+       padding: 0;
+          font-size:1.3em;
+}
+}
+
+@media screen and (max-width:320px) {
+ .list-cont{
+
+       font-size:.9em;
+}
+.footer-social-media{
+
+          font-size:.9em;
+}
+}

@@ -5,3 +5,12 @@
     padding: 0.5em;
     align-items: center;
 }
+
+@media screen and (max-width:528px) {
+  .top-nav{
+flex-direction: column;
+  }
+  .topnavbtn{
+    display: none;
+  }
+}
