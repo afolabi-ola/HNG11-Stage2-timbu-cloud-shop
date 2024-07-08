@@ -2,7 +2,6 @@ import './ProductCard.css';
 import Button from '../Button/Button';
 
 const ProductCard = ({ product }) => {
-  console.log(product);
   return (
     <div className='product-card'>
       <div className='card-image'>

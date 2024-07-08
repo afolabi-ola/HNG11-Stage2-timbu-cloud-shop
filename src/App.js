@@ -1,8 +1,12 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import Header from './components/Header/Header';
 import TopBanner from './components/TopBanner/TopBanner';
 import Products from './components/Products/Products';
 import Footer from './components/Footer/Footer';
+import CartPage from './components/CartPage/CartPage';
+import CheckOut from './components/CheckOut/CheckOut';
 const App = () => {
   const topSellingProducts = [
     {
@@ -148,9 +152,36 @@ const App = () => {
           productHeading='Top Selling Products'
         />
         <Products products={discountSales} productHeading='Discount Sales' />
+      <CartPage/>
       </div>
       <Footer />
     </div>
+    // <Router>
+    //   <div className='app'>
+    //     <Header />
+    //     <div className='top-section'>
+    //       {/* Route for the homepage */}
+    //       <Route exact path='/'>
+    //         <TopBanner />
+    //         <Products
+    //           products={topSellingProducts}
+    //           productHeading='Top Selling Products'
+    //         />
+    //         <Products
+    //           products={discountSales}
+    //           productHeading='Discount Sales'
+    //         />
+    //       </Route>
+
+    //       {/* Route for the cart page */}
+    //       <Route path='/cart' component={CartPage} />
+
+    //       {/* Route for the checkout page */}
+    //       <Route path='/checkout' component={CheckOut} />
+    //     </div>
+    //     <Footer />
+    //   </div>
+    // </Router>
   );
 };
 
