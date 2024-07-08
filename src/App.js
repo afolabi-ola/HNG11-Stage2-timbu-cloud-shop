@@ -30,7 +30,7 @@ const App = () => {
       name: 'APPLE Macbook Pro 17',
       price: '₦850,000',
       image: '/images/AppleMacBook.png',
-      description: 'SAMSUNG Galaxy S21Ultra 5G',
+      description: 'MACBOOK pro 17 inch APPLE M3',
       salesType: 'Top Selling Products',
     },
     {
@@ -142,6 +142,27 @@ const App = () => {
     },
   ];
 
+  const userCart = [
+    {
+      id: 1,
+      name: 'Apple Macbook Pro 17',
+      price: '₦1850,000',
+      image: '/images/AppleMacBook.png',
+      description: 'MACBOOK Pro 17 Inch APPLE M3',
+      quantity: 2,
+      total: '��1,700,000',
+    },
+    {
+      id: 2,
+      name: 'Sony Headphone',
+      price: '��125,000',
+      image: '/images/SonyHeadPhone.png',
+      description: 'MACBOOK pro 17 inch APPLE M3',
+      quantity: 1,
+      total: '��125,000',
+    },
+  ];
+
   return (
     <div className='app'>
       <div className='top-section'>
@@ -152,36 +173,11 @@ const App = () => {
           productHeading='Top Selling Products'
         />
         <Products products={discountSales} productHeading='Discount Sales' />
-      <CartPage/>
+        {/* <CartPage cart={userCart} /> */}
+        {/* <CheckOut /> */}
       </div>
       <Footer />
     </div>
-    // <Router>
-    //   <div className='app'>
-    //     <Header />
-    //     <div className='top-section'>
-    //       {/* Route for the homepage */}
-    //       <Route exact path='/'>
-    //         <TopBanner />
-    //         <Products
-    //           products={topSellingProducts}
-    //           productHeading='Top Selling Products'
-    //         />
-    //         <Products
-    //           products={discountSales}
-    //           productHeading='Discount Sales'
-    //         />
-    //       </Route>
-
-    //       {/* Route for the cart page */}
-    //       <Route path='/cart' component={CartPage} />
-
-    //       {/* Route for the checkout page */}
-    //       <Route path='/checkout' component={CheckOut} />
-    //     </div>
-    //     <Footer />
-    //   </div>
-    // </Router>
   );
 };
 

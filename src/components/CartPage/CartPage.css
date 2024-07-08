@@ -1,0 +1,19 @@
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5em;
+    padding: 1em 0;
+}
+.cart-sub-cont{
+    grid-area:  1 / 1 / span 1/ span 3;
+}
+.cart-sub2-cont{
+    padding: 1em 0;
+}
+
+.home span a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+margin-left: 1em;
+}
