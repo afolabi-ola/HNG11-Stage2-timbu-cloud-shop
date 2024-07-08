@@ -1,0 +1,67 @@
+.checkout-page{
+    width: 100%;
+    background-color: #cecece;
+}
+
+.checkout-nav{
+     display: grid;
+grid-template-columns: repeat(3,1fr);
+width: 100%;
+text-align: center;
+padding: 1em 0;
+margin-bottom: 4em;
+}
+.checkoutlogo{
+   padding-left: 3em;
+   padding-top: 1em;
+}
+
+.checkout-body{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 3em;
+}
+.checkout-body label{
+    font-size: .9em;
+}
+
+.checkout-sub1{
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.checkout-address{
+margin-bottom:3em;
+
+
+}
+.checkout-address h1{
+margin-bottom: .7em;
+font-size: 1.7em;
+
+}
+
+.checkout-delivery-option{
+
+    margin-bottom: 4em;
+}
+.checkout-delivery-option h1{
+       font-size: 1.7em;
+       margin-bottom: .5em;
+}
+.checkout-delivery-option input[type='radio']{
+     display:inline-block;
+     margin-right: .6em;
+      accent-color: #ff0000;
+}
+.checkout-delivery-option p{
+     margin-bottom: .3em;
+}
+
+.payment input[type='radio']{
+        margin-right: .6em;
+        accent-color: #ff0000;
+}
+.payment h1{
+        font-size: 1.7em;
+       margin-bottom: .5em;
+}

@@ -5,11 +5,13 @@ const Button = ({
   bgColor = '#000000',
   color = '#ffffff',
   width = '5em',
+  height = '100%',
 }) => {
   const styles = {
     backgroundColor: bgColor,
     color: color,
     width: width,
+    height: height,
   };
 
   return (

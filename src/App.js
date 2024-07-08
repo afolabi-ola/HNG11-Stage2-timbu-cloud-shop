@@ -1,8 +1,12 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import Header from './components/Header/Header';
 import TopBanner from './components/TopBanner/TopBanner';
 import Products from './components/Products/Products';
 import Footer from './components/Footer/Footer';
+import CartPage from './components/CartPage/CartPage';
+import CheckOut from './components/CheckOut/CheckOut';
 const App = () => {
   const topSellingProducts = [
     {
@@ -26,7 +30,7 @@ const App = () => {
       name: 'APPLE Macbook Pro 17',
       price: '₦850,000',
       image: '/images/AppleMacBook.png',
-      description: 'SAMSUNG Galaxy S21Ultra 5G',
+      description: 'MACBOOK pro 17 inch APPLE M3',
       salesType: 'Top Selling Products',
     },
     {
@@ -138,6 +142,27 @@ const App = () => {
     },
   ];
 
+  const userCart = [
+    {
+      id: 1,
+      name: 'Apple Macbook Pro 17',
+      price: '₦1850,000',
+      image: '/images/AppleMacBook.png',
+      description: 'MACBOOK Pro 17 Inch APPLE M3',
+      quantity: 2,
+      total: '��1,700,000',
+    },
+    {
+      id: 2,
+      name: 'Sony Headphone',
+      price: '��125,000',
+      image: '/images/SonyHeadPhone.png',
+      description: 'MACBOOK pro 17 inch APPLE M3',
+      quantity: 1,
+      total: '��125,000',
+    },
+  ];
+
   return (
     <div className='app'>
       <div className='top-section'>
@@ -148,6 +173,8 @@ const App = () => {
           productHeading='Top Selling Products'
         />
         <Products products={discountSales} productHeading='Discount Sales' />
+        {/* <CartPage cart={userCart} /> */}
+        {/* <CheckOut /> */}
       </div>
       <Footer />
     </div>
