@@ -36,3 +36,14 @@
     border-top-left-radius: 90%;
     color: #ffffff;
 }
+
+@media screen and (max-width:528px) {
+.card-text h2{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+.card-text p{
+      font-size: 1em;
+     margin-bottom: 0.5em;
+}
+}

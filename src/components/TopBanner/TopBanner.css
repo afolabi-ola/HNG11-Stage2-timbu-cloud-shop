@@ -32,3 +32,32 @@ width: 9em;
     height: 100%;
     border-radius: 3px;
 }
+
+@media screen and (max-width:528px) {
+    .top-banner{
+        grid-template-columns: 1fr;
+    }
+    
+    .bannner-text h1{
+font-size: 2em;
+width: 9em;
+  margin-top: 0.5em;
+}
+
+.bannner-text p{
+   width: 100%;
+   margin-top: 1em;
+    font-weight: 600;
+}
+.banner-image{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+}
+@media screen and (max-width:320px) {
+.banner-image{
+    width: 90%;
+    border-radius: 10px;
+}
+}
