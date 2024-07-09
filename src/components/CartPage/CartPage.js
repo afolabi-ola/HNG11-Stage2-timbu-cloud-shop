@@ -32,7 +32,12 @@ const CartPage = ({ cart }) => {
           <li>Subtotal</li>
           <li>#975,000</li>
         </ul>
-        <Button width='100%' link='/' height='2.5em'>
+        <Button
+          text='Proceed To Checkout'
+          width='100%'
+          link='/checkoutPage'
+          height='2.5em'
+        >
           Proceed To Checkout
         </Button>
         <p>Pay With</p>

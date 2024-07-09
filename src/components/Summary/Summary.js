@@ -23,7 +23,7 @@ const Summary = ({ sumBtnText }) => {
         </ul>
       </div>
       <div className='summary-btn'>
-        <Button text='Proceed To Checkout' width='100%' height='2.5em'>
+        <Button text={sumBtnText}  width='100%' height='2.5em'>
           {sumBtnText}
         </Button>
       </div>
