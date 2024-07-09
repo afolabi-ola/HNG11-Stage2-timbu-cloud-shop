@@ -6,13 +6,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons/faShoppingCart';
 
 
+
 const TopNav = () => {
   return (
     <div className='top-nav'>
       <Logo />
       <Search />
       <div className='topnavbtn'>
-        <Button bgColor='#ff0000' link='/cart' color='#ffffff'>
+        <Button bgColor='#ff0000' link='/cart' color='#ffffff' text='My Cart'>
           <span>My Cart</span>
           <span>
             <FontAwesomeIcon icon={faShoppingCart} />

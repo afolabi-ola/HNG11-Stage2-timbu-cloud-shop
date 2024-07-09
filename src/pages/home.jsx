@@ -140,15 +140,16 @@ const Home = () => {
   ];
   return (
     <div>
-      <Outlet />
-      <TopBanner />
-      {/* <button onClick={()=> navigate("/cart")}></button>  */}
-      <Products
-        products={topSellingProducts}
-        productHeading='Top Selling Products'
-      />
-      <Products products={discountSales} productHeading='Discount Sales' />
-
+      <div className='top-section'>
+        <Outlet />
+        <TopBanner />
+        {/* <button onClick={()=> navigate("/cart")}></button>  */}
+        <Products
+          products={topSellingProducts}
+          productHeading='Top Selling Products'
+        />
+        <Products products={discountSales} productHeading='Discount Sales' />
+      </div>
       <Footer />
     </div>
   );

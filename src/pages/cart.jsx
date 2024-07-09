@@ -24,8 +24,10 @@ const Cart = () => {
   ];
   return (
     <div>
-      <Outlet />
-      <CartPage cart={userCart} />
+      <div className='top-section'>
+        <Outlet />
+        <CartPage cart={userCart} />
+      </div>
       <Footer />
     </div>
   );

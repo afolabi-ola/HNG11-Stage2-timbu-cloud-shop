@@ -5,8 +5,11 @@ import {
   faShoppingCart,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate, redirect } from 'react-router-dom';
 
 const Logo = () => {
+    const navigate = useNavigate();
+
   return (
     <div className='logo-overall'>
       <div className='icon1'>
@@ -23,7 +26,7 @@ const Logo = () => {
         <FontAwesomeIcon icon={faUser} />
       </div>
       <div className='icon3'>
-        <FontAwesomeIcon icon={faShoppingCart} />
+        <FontAwesomeIcon onClick={() => navigate('/cart')} icon={faShoppingCart} />
       </div>
     </div>
   );

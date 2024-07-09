@@ -8,8 +8,22 @@ const Button = ({
   color = '#ffffff',
   width = '5em',
   height = '100%',
-  link
+  link = '/',
+  text,
 }) => {
+  switch (text) {
+    case 'My Cart':
+      link = '/cart';
+      break;
+    case 'Proceed To Checkout':
+      link = '/checkoutPage';
+      break;
+    case 'Place Order':
+      link = '/';
+      break;
+    default:
+      link = '/';
+  }
   console.log(link);
   const styles = {
     backgroundColor: bgColor,
@@ -18,7 +32,7 @@ const Button = ({
     height: height,
   };
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <div className='button'>
       <button onClick={() => navigate(link)} style={styles}>
