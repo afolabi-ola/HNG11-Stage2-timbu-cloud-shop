@@ -3,6 +3,7 @@ import Home from '../pages/home';
 import Header from '../components/Header/Header';
 import Cart from '../pages/cart';
 import CheckOutPage from '../pages/checkoutPage';
+import ThankYouPage from '../pages/ThankYouPage';
 
 let router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ let router = createBrowserRouter([
   {
     path: '/checkoutPage',
     element: <CheckOutPage />,
+  },
+  {
+    path: '/thankyoupage',
+    element: <ThankYouPage />,
   },
 ]);
 

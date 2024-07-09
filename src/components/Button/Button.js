@@ -19,6 +19,9 @@ const Button = ({
       link = '/checkoutPage';
       break;
     case 'Place Order':
+      link = '/thankyoupage';
+      break;
+    case 'Back To Homepage':
       link = '/';
       break;
     default:

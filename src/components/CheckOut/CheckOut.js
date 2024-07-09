@@ -67,7 +67,7 @@ const CheckOut = () => {
             </div>
           </div>
           <div className='checkout-summarty'>
-            <Summary sumBtnText='Place Order' />
+            <Summary sumBtnText='Place Order'/>
           </div>
         </div>
       </div>
