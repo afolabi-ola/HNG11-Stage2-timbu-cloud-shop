@@ -41,3 +41,36 @@ font-weight: 600;
 .summary img{
   margin-right: 1em;
 }
+
+@media screen and (max-width: 528px) {
+.summary{
+    border: none;
+}
+.summary-nav{
+     border: none;
+}
+.summary ul{
+     padding:.5em 0;
+}
+.summary-nav ul{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.summary-btn{
+padding: 0;
+
+}
+.summary-btn button{
+font-size: 1em;
+
+}
+ 
+.summary-pay-with p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+
+}

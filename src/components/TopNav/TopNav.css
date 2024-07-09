@@ -9,6 +9,7 @@
 @media screen and (max-width:528px) {
   .top-nav{
 flex-direction: column;
+margin-top: .7em;
   }
   .topnavbtn{
     display: none;

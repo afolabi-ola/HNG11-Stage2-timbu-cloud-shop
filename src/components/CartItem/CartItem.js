@@ -29,6 +29,7 @@ const CartItem = ({ item }) => {
             </div>
             <div className='cart-description'>
               <h2>{item.description}</h2>
+              <p className='subprice'>#850,000</p>
             </div>
           </div>
           <div className='cart-info'>
@@ -38,7 +39,7 @@ const CartItem = ({ item }) => {
               <button onClick={handleClick}>+</button>
             </div>
             <div className='cart-price-tab'>
-              <p>#850,000</p>
+              <p className='cart-info-price'>#850,000</p>
             </div>
             <div className='action-tab'>
               <FontAwesomeIcon icon={faTrash} />
