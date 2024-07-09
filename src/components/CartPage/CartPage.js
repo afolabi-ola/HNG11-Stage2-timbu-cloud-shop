@@ -36,7 +36,7 @@ const CartPage = ({ cart }) => {
           text='Proceed To Checkout'
           width='100%'
           link='/checkoutPage'
-          height='2.5em'
+          height='3em'
         >
           Proceed To Checkout
         </Button>
