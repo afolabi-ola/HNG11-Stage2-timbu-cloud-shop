@@ -25,9 +25,9 @@ const Logo = () => {
       <div className='icon2'>
         <FontAwesomeIcon icon={faUser} />
       </div>
-      {/* <div className='icon3'>
+       <div className='icon3'>
         <FontAwesomeIcon onClick={() => navigate('/cart')} icon={faShoppingCart} />
-      </div> */}
+      </div> 
     </div>
   );
 };
