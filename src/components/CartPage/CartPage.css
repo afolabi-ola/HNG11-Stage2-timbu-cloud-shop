@@ -20,6 +20,9 @@ color: black;
 font-weight: 500;
 margin-left: 1em;
 }
+.home span a:hover{
+color: #942300;
+}
 
 .cart-heading-summary{
     display: none;

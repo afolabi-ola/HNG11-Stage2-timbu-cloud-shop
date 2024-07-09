@@ -106,6 +106,9 @@ margin-top: 1em;
      padding-right: 1em;
      cursor: pointer;
 }
+.action-tab:hover{
+   color:#942300;
+}
 
 @media screen and (max-width:528px) {
 .cartNav{

@@ -1,49 +1,55 @@
-.logo{
+.logo-overall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 0;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
     background-color: black;
-    width: 6.5rem;
-    color: #f0f0f0;
-display: flex;
-justify-content: space-between;
-padding:0.3em 0.5rem;
+      padding: .5rem;
 }
 
-.logo-icon{
+.logo-icon {
+  margin-left: 0.5rem;
+  color: #942300;
+}
+
+.icon1, .icon2, .icon3 {
+  color: #000000;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  display: none;
+}
+
+
+@media screen and (max-width: 528px) {
+  .logo-overall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+.icon1{
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: start;
+}
+
+  .icon2 {
+    display: flex;
+    justify-content: end;
+  }
+
+  .icon3 {
+    display: flex;
+    justify-content: end;
+  }
+  .icon1:hover,.icon2:hover,.icon3:hover{
     color: #942300;
-}
-
-.icon1{
-   display: none;
-}
-.icon2{
-display: none;
-}
-.icon3{
- display: none;
-}
-
-
-@media screen and (max-width:528px) {
-  .logo{
-margin-bottom: 1em;
   }
-  .topnavbtn{
-    display: none;
-  }
-  .logo-overall{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.icon1{
-    display: flex;
-    justify-content: start;
-}
-.icon2{
-    display: flex;
-    justify-content: end;
-}
-.icon3{
-    display: flex;
-    justify-content: end;
-}
-}
- 

@@ -13,7 +13,7 @@ const TopNav = () => {
       <Logo />
       <Search />
       <div className='topnavbtn'>
-        <Button bgColor='#ff0000' link='/cart' color='#ffffff' text='My Cart'>
+        <Button bgColor='#ff0000' link='/cart' color='#ffffff' text='My Cart' width='7em' height='3em'>
           <span>My Cart</span>
           <span>
             <FontAwesomeIcon icon={faShoppingCart} />
