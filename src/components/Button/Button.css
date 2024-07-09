@@ -17,6 +17,13 @@
      font-size: .7em;
      text-align: center;
      display: flex;
+     align-items: center;
      justify-content: center;
       align-items:center;
+      transition: .3s ease-in;
+}
+
+.button button:hover{
+      color: #942300;
+      transform: scale(1.05);
 }

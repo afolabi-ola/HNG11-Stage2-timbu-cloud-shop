@@ -15,7 +15,9 @@ const ProductCard = ({ product }) => {
       <div className='card-text'>
         <h2>{product.name}</h2>
         <p>{product.price}</p>
-        <Button width='6em'>Add To Cart</Button>
+        <Button width='7em' height='3em'>
+          Add To Cart
+        </Button>
       </div>
     </div>
   );

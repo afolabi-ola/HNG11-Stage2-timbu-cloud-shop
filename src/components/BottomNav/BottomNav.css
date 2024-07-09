@@ -10,6 +10,9 @@
    color: #ffffff;
    text-decoration: none;
 }
+.bottom-nav a:hover{
+color: #d13606;
+}
 
 .all-categories{
     display: flex;

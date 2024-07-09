@@ -2,7 +2,9 @@
     border: 1px solid #808080;
     width: 100%;
         border-radius: 7px;
+        padding-bottom: 1em;
 }
+
 .card-image{
     width: 100%;
     display: flex;
@@ -19,7 +21,7 @@
 
 }
 .card-text h2{
-    font-size: .7em;
+    font-size: 1em;
     margin-bottom: 0.5em;
 }
 .card-text p{
