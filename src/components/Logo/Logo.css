@@ -41,5 +41,9 @@ margin-bottom: 1em;
     display: flex;
     justify-content: end;
 }
+.icon3{
+    display: flex;
+    justify-content: end;
+}
 
 }
