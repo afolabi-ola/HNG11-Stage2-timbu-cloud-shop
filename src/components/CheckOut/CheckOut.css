@@ -52,6 +52,8 @@ font-size: 1.7em;
      display:inline-block;
      margin-right: .6em;
       accent-color: #ff0000;
+      width: 1.2em;;
+      height: 1.2em;
 }
 .checkout-delivery-option p{
      margin-bottom: .3em;
@@ -60,8 +62,42 @@ font-size: 1.7em;
 .payment input[type='radio']{
         margin-right: .6em;
         accent-color: #ff0000;
+         width: 1.2em;;
+      height: 1.2em;
 }
 .payment h1{
         font-size: 1.7em;
        margin-bottom: .5em;
+}
+
+@media screen and (max-width: 528px) {
+    .checkout-body{
+        grid-template-columns: 1fr;
+        padding-left: 0;
+    }
+    .checkout-page{
+        background-color: #ffffff;
+    }
+    .checkout-address button{
+font-size: 1.2em;
+    }
+    .checkout-address.button{
+font-size: 1em;
+    }
+    .payment{
+        margin-bottom: 2em;
+    }
+ 
+    .checkout-nav{
+        width: 100%;
+        display: flex;justify-content: center;
+    }
+.checkoutlogo{
+    display: none;
+}
+.checkoutheadtext h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 }

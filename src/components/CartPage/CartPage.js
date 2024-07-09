@@ -3,6 +3,7 @@ import './CartPage.css';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import CartItem from '../CartItem/CartItem';
 import Summary from '../Summary/Summary';
+import Button from '../Button/Button';
 
 const CartPage = ({ cart }) => {
   console.log(cart);
@@ -11,10 +12,11 @@ const CartPage = ({ cart }) => {
       <div className='home'>
         <FontAwesomeIcon icon={faArrowLeft} />
         <span>
-          <a href='home'>Home</a>
+          <a href='/'>Home</a>
         </span>
       </div>
-      <h1>Shopping Cart</h1>
+      <h1 className='cart-heading'>Shopping Cart</h1>
+      <h1 className='cart-heading-summary'>Summary (2 Items)</h1>
       <div className='cart-container'>
         <div className='cart-sub-cont'>
           {cart.map((item) => {
@@ -24,6 +26,30 @@ const CartPage = ({ cart }) => {
         <div className='cart-sub2-cont'>
           <Summary sumBtnText='Proceed To Checkout' />
         </div>
+      </div>
+      <div className='cart-summary-subtotal'>
+        <ul>
+          <li>Subtotal</li>
+          <li>#975,000</li>
+        </ul>
+        <Button width='100%' link='/' height='2.5em'>
+          Proceed To Checkout
+        </Button>
+        <p>Pay With</p>
+        <ul>
+          <li>
+            <img
+              src='/images/visa_inc_logo.svg.png'
+              alt='/images/visa_inc_logo.svg.png'
+            />
+          </li>
+          <li>
+            <img src='/images/Group.png' alt='/images/Group.png' />
+          </li>
+          <li>
+            <img src='/images/VERVE 1.png' alt='/images/VERVE 1.png' />
+          </li>
+        </ul>
       </div>
     </div>
   );

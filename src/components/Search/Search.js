@@ -7,7 +7,9 @@ const Search = () => {
   return (
     <form className='search'>
       <SearchInput searchPlaceholder='Search For Products, Brands And Categories' />
-      <SubmitButton buttonText='Search' />
+      <div className='searchbuttonwrap'>
+        <SubmitButton buttonText='Search' />
+      </div>
     </form>
   );
 };
