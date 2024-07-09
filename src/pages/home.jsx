@@ -3,6 +3,8 @@ import Products from '../components/Products/Products';
 import { Outlet } from 'react-router-dom';
 import Footer from '../components/Footer/Footer';
 import { useNavigate, redirect } from 'react-router-dom';
+import Thanks from '../components/Thanks/Thanks';
+
 const Home = () => {
   const navigate = useNavigate();
   const topSellingProducts = [
