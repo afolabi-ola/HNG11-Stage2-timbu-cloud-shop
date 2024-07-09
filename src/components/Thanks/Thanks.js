@@ -15,7 +15,7 @@ const Thanks = () => {
       </div>
       <div className='thanks-btn'>
         <div>
-          <Button width='90%' height='3em0' text='Back To Homepage'>
+          <Button width='90%' height='3em' text='Back To Homepage'>
             Back To Homepage
           </Button>
         </div>
