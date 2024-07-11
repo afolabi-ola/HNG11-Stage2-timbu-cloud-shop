@@ -42,7 +42,7 @@ font-weight: 600;
   margin-right: 1em;
 }
 
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 768px) {
 .summary{
     border: none;
 }
