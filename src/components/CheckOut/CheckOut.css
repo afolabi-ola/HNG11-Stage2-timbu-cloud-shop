@@ -70,7 +70,7 @@ font-size: 1.7em;
        margin-bottom: .5em;
 }
 
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 768px) {
     .checkout-body{
         grid-template-columns: 1fr;
         padding-left: 0;
