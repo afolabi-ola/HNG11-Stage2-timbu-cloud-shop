@@ -33,7 +33,7 @@ width: 9em;
     border-radius: 3px;
 }
 
-@media screen and (max-width:528px) {
+@media screen and (max-width:768px) {
     .top-banner{
         grid-template-columns: 1fr;
     }
