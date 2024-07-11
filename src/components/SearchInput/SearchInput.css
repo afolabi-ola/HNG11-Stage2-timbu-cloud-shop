@@ -17,6 +17,18 @@
     padding: 0.5em;
     background-color: transparent;
 }
+
+@media screen and (max-width:768px) {
+    .search-input{
+          width:15em;
+            padding:0 0.4em;
+            margin: 0;
+    }
+    .search-input input{
+        padding: .3em;
+        font-size: .7em;
+    }
+}
 @media screen and (max-width:528px) {
     .search-input{
           width:13em;
