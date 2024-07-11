@@ -9,7 +9,7 @@
   margin: 0 .3em;
 }
 
-@media screen and (max-width:528px) {
+@media screen and (max-width:768px) {
   .top-nav{
 flex-direction: column;
 margin-top: .7em;
