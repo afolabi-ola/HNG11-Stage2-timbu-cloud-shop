@@ -35,7 +35,7 @@ color: #942300;
 
 }
 
-@media screen and (max-width:528px) {
+@media screen and (max-width:768px) {
 .cart-container{
     grid-template-columns: 1fr;
 }
